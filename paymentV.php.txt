@@ -1,0 +1,12 @@
+<section id="checkout">
+    <h2>Checkout - Pay with Airtel Money</h2>
+    <form action="process_payment.php" method="post">
+        <label for="amount">Amount to Pay:</label>
+        <input type="text" id="amount" name="amount" value="MWK 39,000" readonly><br><br>
+        
+        <label for="phone">Enter Airtel Money Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="09XXXXXXXX" required><br><br>
+        
+        <input type="submit" value="Pay Now">
+    </form>
+</section>
